@@ -1,0 +1,125 @@
+/* Outline */
+
+html {
+	
+}
+body {
+
+}
+header {
+
+	.logo {
+
+		img {
+		}
+	}
+}
+nav {
+
+	ul {
+
+		li {
+			a {
+	
+				&:hover {
+				}
+			}
+		}
+	}
+	&:hover {
+	}
+}
+
+section {
+}
+
+footer {
+	.social {
+		a {
+			span {
+			}
+		}
+		a[title="Twitter"] {
+		}
+		a[title="LinkedIn"] {
+		}
+		a[title="GitHub"] {
+		}
+	}
+}
+
+/* Module Styles */
+
+.dark {
+
+	.button {
+
+	}
+}
+.light {
+
+	.button {
+
+	}
+}
+
+.button {
+
+	&:hover {
+	}
+}
+
+
+/* Section Styles */
+#about {
+	img {
+
+	}
+	> em {
+
+		span {
+
+		}
+	}
+	h2 {
+
+		span {
+
+		}
+	}
+	p {
+	}
+	.button {
+	}
+}
+#services {
+	div {
+		img {
+			
+		}
+		h3 {
+			width: 100%;
+		}
+		p {
+			
+		}
+	}
+}
+#work {
+	.project {
+
+		img {
+		}
+
+		p {
+			
+		}
+	}
+}
+
+#contact {
+	input, textarea {
+	}
+	.button {
+	}
+}

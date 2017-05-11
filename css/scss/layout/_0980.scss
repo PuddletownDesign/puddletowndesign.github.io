@@ -1,0 +1,139 @@
+/* Outline */
+
+html {
+	
+}
+body {
+
+}
+header {
+
+	.logo {
+
+		img {
+		}
+	}
+}
+nav {
+
+	ul {
+		li {
+			
+			a {
+
+				&:hover {
+				}
+			}
+		}
+	}
+	&:hover {
+	}
+}
+
+
+section {
+}
+
+footer {
+
+	.social {
+		a {
+			span {
+			}
+		}
+		a[title="Twitter"] {
+		}
+		a[title="LinkedIn"] {
+		}
+		a[title="GitHub"] {
+		}
+	}
+}
+
+/* Module Styles */
+
+.dark {
+
+	.button {
+
+	}
+}
+.light {
+
+	.button {
+
+	}
+}
+
+.button {
+
+	&:hover {
+	}
+}
+
+
+/* Section Styles */
+#about {
+	background: $black url(images/about/umbrella1600.jpg) top center no-repeat;
+
+	img {
+
+	}
+	> em {
+
+		span {
+
+		}
+	}
+	h2 {
+
+		span {
+
+		}
+	}
+	p {
+	}
+	.button {
+	}
+}
+#services {
+	div {
+		display: inline-block;
+		width:25%;
+		text-align: center;
+		vertical-align: top;
+		img {
+			
+		}
+		h3 {
+			width:10em;
+			margin: 0 auto;
+		}
+		p {
+			
+		}
+	}
+}
+#work {
+	clear: both;
+	.project {
+
+		img {
+		}
+
+		p {
+			
+		}
+	}
+}
+
+#contact {
+	input, textarea {
+	}
+	.button {
+		
+	}
+	.button, .g-recaptcha {
+		
+	}
+}

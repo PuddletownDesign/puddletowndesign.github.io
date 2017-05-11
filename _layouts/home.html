@@ -1,14 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="css/styles.css" rel="stylesheet">
-<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="{{page.description}}">
+	<meta rel="canonical" href="http://puddletowndesign.com" hreflang="en-us">
+	<link href="{{ site.github.url }}css/styles.css" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Raleway:700%7COpen+Sans" rel="stylesheet">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" defer></script>
+	<script src="{{ site.github.url }}js/scripts.js" defer></script>
+	<title>{{page.title}}</title>
 </head>
-<body>
+
+<body itemscope itemtype="http://schema.org/Organization">
+
+	<header>
+		<a class="logo" href="http://puddletowndesign.github.io/" itemprop="url"><img src="{{ site.github.url }}images/dropplet.png" alt="Puddletown Design"></a>
+
+		<nav>
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#work">My Work</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
 
 
+
+	<section id="about">
+		<h1><img src="{{ site.github.url }}images/logo.png" alt="Puddletown Design Portland Web Design" itemprop="logo"></h1>
+		<em itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">Portland</span>, <span itemprop="addressRegion">Oregon</span>. <span>Est. 2006</span></em>
+		<h2>Interactive Design <span>Web Development</span></h2>
+		<p itemprop="description">Personal portfolio of interactive designer &amp; front end engineer <strong itemprop="founder">Brent Schneider</strong>. Brent is a Full stack developer with special focus on user experience design</p>
+		<a href="#work" class="button">See my work</a>
+	</section>
+
+
+
+	<section id="services" itemscope itemtype="http://schema.org/Offer" itemprop="makesOffer">
+		<h2>Services I offer</h2>
+		<div itemprop="itemOffered" itemscope itemtype="http://schema.org/Service">
+			<img src="{{ site.github.url }}images/services/coding.png" alt="Custom Website Design" itemprop="image">
+			<h3 itemprop="name">Custom Website Design</h3>
+			<p itemprop="description">Each website or application I build is specifically to match your current needs and scale for future ones.</p>
+		</div>
+		<div itemprop="itemOffered" itemscope itemtype="http://schema.org/Service">
+			<img src="{{ site.github.url }}images/services/responsive.png" alt="Responsive Website Design" itemprop="image">
+			<h3 itemprop="name">Responsive Design</h3>
+			<p itemprop="description">I take great care to make sure that your site is beautiful no matter what size device your customers are viewing it on. </p>
+		</div>
+		<div itemprop="itemOffered" itemscope itemtype="http://schema.org/Service">
+			<img src="{{ site.github.url }}images/services/wordpress.png" alt="Wordpress design &amp; Development" itemprop="image">
+			<h3 itemprop="name">Wordpress Development</h3>
+			<p itemprop="description">The blogging platform that turned into the everything platform. Sometimes you just need a sledgehammer to turn a screw.</p>
+		</div>
+	</section>
+
+
+	<section id="work">
+		<h2>Recent Work</h2>
+
+		<div class="project">
+			<div class="image">
+				<img src="{{ site.github.url }}images/work/manifest/thumb.jpg" alt="Manifest Parfums">
+			</div>
+			<div class="text">
+				<h3>Manifest Parfums</h3>
+				<em>Front-end</em>
+				<p>Coding of the front-end and design for the Austrailian Perfumist Ven Gialouris</p>
+				<a href="http://manifestparfums.com/" class="button" rel="external">View Website</a>
+			</div>
+		</div>
+
+		<div class="project">
+			<div class="image">
+				<img src="{{ site.github.url }}images/work/raygun/thumb.jpg" alt="Raygun Recordings Website">
+			</div>
+			<div class="text">
+				<h3>RAYgun Recordings</h3>
+				<em>Branding, Website &amp; Social Media Integration</em>
+				<p>Branding, business cards &amp; custom wordpress theme for local Portland production house RAYgun Recordings.</p>
+				<a href="http://raygunrecordings.com/" class="button" rel="external">View Website</a>
+			</div>
+		</div>
+
+		<div class="project">
+			<div class="image">
+				<img src="{{ site.github.url }}images/work/quicknotes/thumb.gif" alt="Quicknotes note taking app">
+			</div>
+			<div class="text">
+				<h3>Quicknotes</h3>
+				<em>Browser &amp; Phone App</em>
+				<p>An open source note taking app that works from any browser without requiring sign up or any registration. Notes are completely private and are stored directly on the users device.</p>
+				<a href="http://puddletowndesign.github.io/quicknotes/" class="button" rel="external">View App</a>
+				<a href="https://github.com/PuddletownDesign/quicknotes" class="button source" rel="external">Source Code</a>
+			</div>
+		</div>
+
+		<div class="project">
+			<div class="image">
+				<img src="{{ site.github.url }}images/work/100lettersforpeace/thumb.jpg" alt="100 Letters for Peace Custom Wordpress Website">
+			</div>
+			<div class="text">
+				<h3>100 Letters for Peace</h3>
+				<em>Custom Wordpress Website</em>
+				<p>A custom website for the Portland based activist &amp; Writer Sara Kirschenbaun for her project 100 Letters for Peace.</p>
+				<a href="http://100lettersforpeace.com" class="button" rel="external">View Website</a>
+			</div>
+		</div>
+
+
+		<div class="project">
+			<div class="image">
+				<img src="{{ site.github.url }}images/work/puddlejumper/thumb.gif" alt="Wordpress starting framework">
+			</div>
+			<div class="text">
+				<h3>Puddlejumper</h3>
+				<em>Wordpress framework for building custom sites</em>
+				<p>A custom wordpress framework for starting off barebones and adding custom post types with ease.</p>
+				<a href="https://github.com/PuddletownDesign/puddlejumper" class="button source" rel="external">Source Code</a>
+			</div>
+		</div>
+
+		<div class="project">
+			<div class="image">
+				<img src="{{ site.github.url }}images/work/brandonwilkinson/thumb.gif" alt="Brandon Wilkinson Artist Portfolio Website">
+			</div>
+			<div class="text">
+				<h3>Brandon Wilkinson</h3>
+				<em>Custom CMS artist portfolio website</em>
+				<p>Custom artist portfolio website written on the puddletown plash framework.</p>
+				<a href="http://brandonwilkinson.com/" class="button" rel="external">View Webiste</a>
+			</div>
+		</div>
+
+		<div class="project">
+			<div class="image">
+				<img src="{{ site.github.url }}images/work/microopticalsolutions/thumb.jpg" alt="Micro Optical Solutions Website">
+			</div>
+			<div class="text">
+				<h3>Micro Optical Solutions</h3>
+				<em>Scientific Services Website</em>
+				<p>Website for Boston based micro imaging company specializing in turn key imaging systems &amp; services.</p>
+				<a href="http://microopticalsolutions.com/" class="button" rel="external">View Website</a>
+			</div>
+		</div>
+
+		<div class="project">
+			<div class="image">
+				<img src="{{ site.github.url }}images/work/problems/thumb.jpg" alt="Problems PDX Custom Website">
+			</div>
+			<div class="text">
+				<h3>P.R.O.B.L.E.M.S.</h3>
+				<em>Custom Band Website</em>
+				<p>A custom music website for the Portland based punk rock band P.R.O.B.L.E.M.S. </p>
+				<a href="http://problemspdx.com/" class="button" rel="external">View Webiste</a>
+			</div>
+		</div>
+
+		<div class="project">
+			<div class="image">
+				<img src="{{ site.github.url }}images/work/sarakirschenbaum/thumb.jpg" alt="Sara Kirschenbaum Custom Website">
+			</div>
+			<div class="text">
+				<h3>Sara Kirschenbaum</h3>
+				<em>Custom CMS &amp; Design</em>
+				<p>A completely custom website &amp; CMS designed for Sara&#8217;s Blogging, Writting &amp; Photography.</p>
+				<a href="http://sarakirschenbaum.com/" class="button" rel="external">View Webiste</a>
+			</div>
+		</div>
+
+		<div class="project">
+			<div class="image">
+				<img src="{{ site.github.url }}images/work/bootstrap/thumb.gif" alt="Puddletown Bootstrap HTML &amp; SCSS Framework">
+			</div>
+			<div class="text">
+				<h3>Puddletown Bootstrap</h3>
+				<em>HTML &amp; SCSS Framework</em>
+				<p>A typographic framework to bootstrap websites. Weighs a total of 11kb uncompressed. </p>
+				<a href="https://github.com/PuddletownDesign/puddletown-bootstrap" class="button source" rel="external">Source Code</a>
+			</div>
+		</div>
+
+		<div class="project">
+			<div class="image">
+				<img src="{{ site.github.url }}images/work/hankink/thumb.gif" alt="Hank.ink Custom Website">
+			</div>
+			<div class="text">
+				<h3>Hank.ink Design</h3>
+				<em>Custom Website Design</em>
+				<p>A custom website for the Portland based graphic and packaging designer Hank.ink. </p>
+				<a href="http://hankink.com/" class="button" rel="external">View Website</a>
+			</div>
+		</div>
+
+		<div class="project">
+			<div class="image">
+				<img src="{{ site.github.url }}images/work/whitecapteak/thumb.jpg" alt="White cap teak Responsive web design">
+			</div>
+			<div class="text">
+				<h3>White Cap Teak</h3>
+				<em>Responsive Design Implementation</em>
+				<p>I implemented the layout from a PSD and created a responsive web layout</p>
+				<a href="http://whitecapteak.com/" class="button" rel="external">View Website</a>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section id="contact">
+		<h2>Contact Me</h2>
+
+		<p><strong>I look forward to hearing from you!</strong></p>
+
+		<form action="#contact" method="post">
+			<label for="name">Name &#9733;</label><br>
+
+			<input type="text" name="name" id="name" placeholder="name" required>
+			<br><br>
+
+			<label for="email">Email &#9733;</label><br>
+
+			<input type="text" name="email" id="email" placeholder="email" required>
+			<br><br>
+
+			<label for="message">Message &#9733;</label><br>
+
+			<textarea name="message" id="message" rows="8" cols="40" placeholder="Message" required></textarea>
+			<br><br>
+
+			<button class="button">Send</button>
+		</form>
+	</section>
+
+	<footer>
+		<div class="social">
+			<a href="https://twitter.com/puddletownPDX" rel="external" title="Twitter" itemprop="sameAs"><span>Twitter</span></a>
+			<a href="https://www.linkedin.com/in/brent-schneider-a7276b16" rel="external" title="LinkedIn" itemprop="sameAs"><span>LinkedIn</span></a>
+			<a href="https://github.com/PuddletownDesign" rel="external" title="GitHub" itemprop="sameAs"><span>GitHub</span></a>
+		</div>
+
+		<div class="copyright">
+			&copy; 2017 <span itemprop="name">Puddletown Design</span>
+		</div>
+	</footer>
 
 </body>
 </html>

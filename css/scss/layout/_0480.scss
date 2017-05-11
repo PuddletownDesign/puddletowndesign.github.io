@@ -1,0 +1,132 @@
+/* Outline */
+
+html {
+}
+body {
+
+}
+header {
+	
+	.logo {
+
+		img {
+		}
+	}
+}
+nav {
+
+	ul {
+
+		li {
+			a {
+	
+				&:hover {
+				}
+			}
+		}
+	}
+	&:hover {
+	}
+}
+
+section {
+}
+
+footer {
+	.social {
+		a {
+			margin: 0 4em;
+			width:50px;
+			height: 50px;
+			span {
+			}
+		}
+		a[title="Twitter"] {
+		}
+		a[title="LinkedIn"] {
+		}
+		a[title="GitHub"] {
+		}
+	}
+}
+
+/* Module Styles */
+
+.dark {
+
+	.button {
+
+	}
+}
+.light {
+
+	.button {
+
+	}
+}
+
+.button {
+
+	&:hover {
+	}
+}
+
+
+/* Section Styles */
+#about {
+	background-size: 100%;
+	padding: 5em 2em 6em;
+	background: $black url(images/about/umbrella760.jpg) top center no-repeat;
+	
+	img {
+		width:300px;
+	}
+	> em {
+		font-size: 1.1em;
+		span {
+
+		}
+	}
+	h2 {
+		font-size: 2.4em;
+		span {
+
+		}
+	}
+	p {
+		max-width: 30em;
+	}
+	.button {
+	}
+}
+#services {
+	div {
+		img {
+			
+		}
+		h3 {
+			
+		}
+		p {
+			
+		}
+	}
+}
+#work {
+	.project {
+
+		img {
+		}
+
+		p {
+			
+		}
+	}
+}
+
+#contact {
+	input, textarea {
+	}
+	.button {
+	}
+}

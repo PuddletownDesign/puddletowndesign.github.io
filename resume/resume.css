@@ -1,0 +1,109 @@
+
+body {
+	font-family: 'Open Sans', Arial, Verdana, sans-serif;
+	font-size: 100%;
+	max-width: 45em;
+	margin: 0 auto;
+	padding: 2em;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Raleway', Arial, "Lucida Grande", sans-serif;	
+	text-transform: uppercase;
+	letter-spacing: .005em;
+}
+h1 {
+	font-size: 2.2em;
+	line-height: 1.255em;
+	padding: .5em 0 .5em 85px;
+	margin-top: 1.5em;
+	background: #fff url(../images/dropplet.png) no-repeat left center;
+}
+h2{
+	font-size:1.5em;
+	line-height: 1.33em;
+	padding-top: 1.33em;
+	padding-bottom: .06em;
+}
+h3 {
+	font-size:1.4em;
+	line-height: 1.57em;
+	padding-top: 1.57em;
+
+}
+h4, h5, h6 {
+	font-size:1em;
+	line-height: 1.57em;
+	padding-top: 1.57em;
+	font-weight: bold;
+}
+p, ul ,ol ,dl { 
+	font-size:1em;
+	line-height: 1.57em;
+	padding-bottom: 1.2em;
+	padding-top: .47em;
+/* 	padding-top: 1.97em; */
+}
+.contact {
+	list-style: none;
+	padding: 0 0 1em 0;
+}
+.contact li {
+	display: inline-block;
+	margin-right: 2em;
+	
+}
+.contact a {
+	text-decoration: none;
+	color: #000;
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+strong {
+	font-size: 1.1em;
+}
+em {
+	color: #555;
+}
+.tldr {
+	font-size: 1.22em;
+	font-family: 'Raleway', Arial, "Lucida Grande", sans-serif;	
+	padding-bottom: 0;
+}
+.download {
+	padding-left: 0;
+	list-style: none;
+	position: absolute;
+	top: 1em;
+	right: 1em;
+	width: 12em;
+}
+.download:before {
+	content: "Download";
+	padding: 1em 2em;
+	background-color: #ddd;
+	display: block;
+	text-align: center;
+}
+.download li {
+	display: none;
+}
+.download:hover li {
+	padding-left: 0;
+	display: block;
+
+}
+
+.download:hover li a {
+	display: block;
+	padding: 1em 2em;
+	background-color: #000;
+	color: #fff;
+	border-bottom: 1px solid #999;
+	text-decoration: none;
+}
+.download:hover li a:hover {
+	background-color: #555;
+}
+

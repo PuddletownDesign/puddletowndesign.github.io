@@ -1,0 +1,183 @@
+/* Outline */
+
+html {
+	font-size: 110%;
+}
+body {
+
+}
+header {
+
+	.logo {
+
+		img {
+		}
+	}
+}
+nav {
+
+	ul {
+		padding: .5em 0;
+		list-style: none;
+		text-align: right;
+		width:100%;
+		cursor: default;
+		li {
+			display: inline-block;
+			
+			a {
+				float: left;
+				color: $white;
+				text-decoration: none;
+				margin-right: 3em;
+				color: darken($white, 30%);
+				&:hover {
+				}
+			}
+		}
+	}
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+section {
+}
+
+footer {
+
+	.social {
+		a {
+			margin: 0 4em;
+			width:50px;
+			height: 50px;
+			span {
+			}
+		}
+		a[title="Twitter"] {
+		}
+		a[title="LinkedIn"] {
+		}
+		a[title="GitHub"] {
+		}
+	}
+}
+
+/* Module Styles */
+
+.dark {
+
+	.button {
+
+	}
+}
+.light {
+
+	.button {
+
+	}
+}
+
+.button {
+	
+}
+
+
+/* Section Styles */
+#about {
+	background: $black url(images/about/umbrella980.jpg) top center no-repeat;
+	padding: 4em;
+	img {
+
+	}
+	> em {
+
+		span {
+
+		}
+	}
+	h2 {
+		font-size: 3em;
+		padding: 1.2em 0;
+		span {
+
+		}
+	}
+	p {
+	}
+	.button {
+	}
+}
+#services {
+	div {
+		img {
+			
+		}
+		h3 {
+			
+		}
+		p {
+			
+		}
+	}
+}
+#work {
+	.project {
+		position: relative;
+		font-size: .9em;
+		overflow: hidden;
+		margin: 2em auto 5em;
+		vertical-align: middle;
+		max-width: 60em;
+		padding: 0;
+		overflow: hidden;
+		.image {
+			left: 0px;
+			top: 0px;
+			position: absolute;
+			display: block;
+			width:45.5%;
+			max-height: inherit;
+			overflow: hidden;
+			background-color: #ddd;
+			img {
+				display: block;
+		
+			}
+		}
+		.text {
+			float: right;
+			display: inline-block;
+			width:54%;
+			padding-bottom: 1em;
+			p {
+				
+			}
+		}
+		&:nth-child(odd) {
+			.image {
+				right: 0px;
+				left: auto;
+		
+				img {
+					display: block;
+
+				}
+			}
+			.text {
+				float: left;
+
+				p {
+
+				}
+			}
+		}
+	}
+}
+
+#contact {
+	input, textarea {
+	}
+	.button {
+	}
+}
