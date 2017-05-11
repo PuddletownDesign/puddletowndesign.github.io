@@ -19,8 +19,9 @@ description: > # Brent Schneider is a Portland based front-end developer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:title/
-github_username:  PuddletownDesign
-
+github:
+    user: PuddletownDesign
+    url: puddletownDesign.github.io
 # Build settings
 markdown: kramdown
 gems:
