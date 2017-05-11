@@ -30,6 +30,8 @@ exclude:
   - gulpfile.js
   - node_modules
   - shrinkwrap.yaml
+  - css/scss
+  - css/styles.css
 
 # Build settings
 markdown: kramdown
