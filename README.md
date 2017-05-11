@@ -2,4 +2,4 @@
 
 Jekyll, Gulp, Github  
 
-<http://puddletown.github.io>
+<http://puddletowndesign.github.io>
