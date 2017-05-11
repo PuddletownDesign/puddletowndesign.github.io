@@ -15,17 +15,24 @@
 # in the templates via {{ site.myvariable }}.
 title: Puddletown Design - Interactive Design and Development
 email: puddletowndesign@gmail.com
-description: > # Brent Schneider is a Portland based front-end developer
+url: "https://puddletowndesign.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:title/
 github:
     user: PuddletownDesign
-    url: puddletownDesign.github.io
+    url: puddletowndesign.github.io
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - gulpfile.js
+  - node_modules
+
+
+
 # Build settings
 markdown: kramdown
 gems:
   - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
