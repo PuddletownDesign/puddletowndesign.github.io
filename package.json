@@ -1,8 +1,8 @@
 {
-  "name": "puddletowndesign.github.io",
-  "version": "0.0.3",
-  "main": "_site/index.html",
-  "repository": "https://github.com/PuddletownDesign/puddletowndesign.github.io",
-  "author": "Brent <puddletowndesign@gmail.com>",
-  "license": "MIT"
+    "name": "puddletowndesign.github.io",
+    "version": "0.0.3",
+    "main": "_site/index.html",
+    "repository": "https://github.com/PuddletownDesign/puddletowndesign.github.io",
+    "author": "Brent <puddletowndesign@gmail.com>",
+    "license": "COPYRIGHT"
 }
