@@ -1,8 +1,17 @@
 {
-    "name": "puddletowndesign.github.io",
-    "version": "0.0.3",
-    "main": "_site/index.html",
-    "repository": "https://github.com/PuddletownDesign/puddletowndesign.github.io",
-    "author": "Brent <puddletowndesign@gmail.com>",
-    "license": "COPYRIGHT"
+  "name": "puddletowndesign.github.io",
+  "version": "0.0.3",
+  "main": "_site/index.html",
+  "repository": "https://github.com/PuddletownDesign/puddletowndesign.github.io",
+  "author": "Brent <puddletowndesign@gmail.com>",
+  "license": "COPYRIGHT",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "child_process": "^1.0.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-sass": "^3.1.0"
+  }
 }

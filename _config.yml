@@ -29,8 +29,7 @@ exclude:
   - package.json
   - gulpfile.js
   - node_modules
-
-
+  - shrinkwrap.yaml
 
 # Build settings
 markdown: kramdown
