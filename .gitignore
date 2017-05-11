@@ -1,4 +1,6 @@
 .sass-cache
+css/*.css
+Todo.todo
 node_modules
 .jekyll-metadata
 Gemfile.lock

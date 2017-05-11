@@ -8,12 +8,16 @@ var jekyll = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll'
 var messages = {
   jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
 }
-
+var sassSources = [
+  'css/puddletown/puddletown.scss',
+  'css/articles/articles.scss',
+  'css/resume/resume.scss'
+]
 /**
  * Build the Jekyll Site
  */
 gulp.task('jekyll-build', function (done) {
-  browserSync.notify(messages.jekyllBuild)
+  // browserSync.notify(messages.jekyllBuild)
   return cp.spawn(jekyll, ['build'], {stdio: 'inherit'})
         .on('close', done)
 })
@@ -40,14 +44,14 @@ gulp.task('browser-sync', ['sass', 'jekyll-build'], function () {
  * Compile files from _scss into both _site/css (for live injecting) and site (for future jekyll builds)
  */
 gulp.task('sass', function () {
-  return gulp.src('css/scss/styles.scss')
+  return gulp.src(sassSources)
         .pipe(sass({
           includePaths: ['scss'],
           onError: browserSync.notify,
           outputStyle: 'compressed'
         }))
         .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
-        .pipe(gulp.dest('_site/css'))
+        // .pipe(gulp.dest('_site/css'))
         .pipe(browserSync.reload({stream: true}))
         .pipe(gulp.dest('css'))
 })
@@ -57,7 +61,7 @@ gulp.task('sass', function () {
  * Watch html/md files, run jekyll & reload BrowserSync
  */
 gulp.task('watch', function () {
-  gulp.watch('css/scss/**/*.scss', ['sass'])
+  gulp.watch('**/*.scss', ['sass'])
   gulp.watch(['**/*.html', '_layouts/*.html', '**/*.md', '!node_modules/**/*.html'], ['jekyll-rebuild'])
 })
 
